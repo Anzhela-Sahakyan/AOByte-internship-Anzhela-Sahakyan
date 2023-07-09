@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  background-color: #dbf1d6;
+}
+
+.header {
+  font-size: 50px;
+  color: #615718;
+}
+
+.triangle {
+  margin: 25px;
+}
+
+.triangleWrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.rotateBtn {
+  width: 100px;
+  height: 50px;
+  border-radius: 4px;
+  background-image: radial-gradient(#aedba4, #ece626);
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.5s;
+  transition: transform 1.5s ease-in-out;
+}
+
+.rotateBtn:hover {
+  transform: rotate(180deg) scale(1.1);
+}
+
+.input {
+  margin: 30px;
+  margin-left: 5px;
+  width: 180px;
+  height: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+.errorMsg {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  color: red;
+  font-weight: bold;
+}
